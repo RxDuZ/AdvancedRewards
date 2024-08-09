@@ -1,0 +1,11 @@
+name: AdvancedRewards
+main: rxduz\rewards\Main
+api: 5.17.0
+version: 1.0
+author: "iRxDuZ"
+description: "Add daily player gifts to your server"
+
+permissions:
+  reward.command.use:
+    description: "Allow to use /reward command"
+    default: true

@@ -1,0 +1,42 @@
+daily:
+  customname: "&gDaily Reward"
+  description: "&eclaim every day\n&r{STATUS}"
+  category: user
+  slot: 0
+  representative-item: "emerald"
+  commands:
+    - "give {PLAYER} diamond_sword 1"
+  cooldown: 86400
+  permission: "reward.daily.claim"
+weekly:
+  customname: "&gWeekly Reward"
+  description: "&eClaim every week\n&r{STATUS}"
+  category: user
+  slot: 2
+  representative-item: "emerald"
+  commands:
+    - "give {PLAYER} golden_apple 16"
+  cooldown: 604800
+  permission: "reward.weekly.claim"
+monthly:
+  customname: "&gMonthly Reward"
+  description: "&eClaim every month\n&r{STATUS}"
+  category: user
+  slot: 4
+  representative-item: "emerald"
+  commands:
+    - "give {PLAYER} diamond 64"
+  cooldown: 2592000
+  permission: "reward.monthly.claim"
+vip:
+  customname: "&gVip Reward"
+  description: "&eAvailable every day for premium users\n&r{STATUS}"
+  category: premium
+  slot: 0
+  representative-item: "diamond"
+  commands:
+    - "give {PLAYER} diamond 64"
+    - "give {PLAYER} emerald 64"
+    - "givemoney {PLAYER} 10000"
+  cooldown: 86400
+  permission: "reward.vip.claim"

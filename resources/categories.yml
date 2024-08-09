@@ -1,0 +1,10 @@
+user:
+  customname: "&l&aUser"
+  description: "&aRewards for all users"
+  slot: 0
+  representative-item: "paper"
+premium:
+  customname: "&l&bPremium"
+  description: "&aRewards for premium users"
+  slot: 2
+  representative-item: "paper"

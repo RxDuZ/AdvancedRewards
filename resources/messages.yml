@@ -1,0 +1,18 @@
+# Do not touch :)
+MESSAGES_VERSION: 1
+
+CATEGORIES_MENU_NAME: "&l&dCategories"
+
+REWARDS_MENU_NAME: "&l{CATEGORY} &l&gRewards"
+
+STATUS_AVAILABLE: "&aAvailable"
+
+STATUS_NOT_AVAILABLE: "&cAvailable in: &e{COOLDOWN}"
+
+REWARD_NO_PERMISSION: "&cYou do not have permission to claim this reward"
+
+REWARD_IN_COOLDOWN: "&cYou cannot claim this reward on &7{COOLDOWN}"
+
+REWARD_CLAIM_SUCCESSFULLY: "&aYou successfully claimed the reward {REWARD}"
+
+BROADCAST_REWARD_CLAIM_SUCCESSFULLY: "{PREFIX}&e{PLAYER} &aclaimed &e{REWARD} &arewards"
