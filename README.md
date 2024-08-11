@@ -2,6 +2,8 @@
 
 **AdvancedRewards is a PocketMine-MP plugin to add rewards to your Factions server.**
 
+<p align="center"><img src="img/reward.png"></p>
+
 ## Prerequisites
 
 - InvMenu virion
