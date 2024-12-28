@@ -41,9 +41,10 @@ class Main extends PluginBase
         $this->saveResource('/rewards.yml');
 
         if (!class_exists(InvMenu::class)) {
+            $this->getLogger()->error(TextFormat::RED . 'InvMenu not found, please download in: https://poggit.pmmp.io/ci/Muqsit/InvMenu/~');
+
             $this->getServer()->getPluginManager()->disablePlugin($this);
 
-            $this->getLogger()->warning(TextFormat::RED . 'InvMenu not found, please download it and try again!');
             return;
         }
 
