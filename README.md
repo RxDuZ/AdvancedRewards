@@ -7,7 +7,26 @@
 ## Prerequisites
 
 - InvMenu virion
-- PMMP 5.17.0+
+- PMMP 5.3.0+
+
+## Installation & Setup
+
+1. Install the plugin from [Poggit](https://poggit.pmmp.io/ci/RxDuZ/AdvancedRewards/~).
+2. (Optional) Configure `config.yml` sounds, broadcast and command.
+3. Configure `categories.yml` Define the name of the category in the key.
+   - `customname`: The custom name of the category that will appear in the Menu.
+   - `description`: Description that will appear in the Menu.
+   - `slot`: Slot that occupies its representative Item in the Inventory Menu.
+   - `representative-item`: Name of the item that represents this category.
+4. Configure `rewards.yml` Configure unlimited rewards, it is important to first create the category in which each reward will be.
+   - `customname`: The custom name of the reward that will appear in the Menu.
+   - `description`: Description that will appear in the Menu.
+   - `category`: Category it will be in (The category must exist)
+   - `slot`: Slot that occupies its representative Item in the Inventory Menu.
+   - `representative-item`: Name of the item that represents this reward.
+   - `commands`: List of commands (array) that the console executes when claiming the reward (Use {PLAYER} for the player name)
+   - `cooldown`: Cooldown time to claim again (in seconds)
+   - `permission`: Permission to claim.
 
 ### Implementations
 
