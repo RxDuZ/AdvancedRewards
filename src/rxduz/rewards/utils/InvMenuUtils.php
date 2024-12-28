@@ -70,7 +70,7 @@ class InvMenuUtils
 
         $menu->setName(Translation::getInstance()->getMessage('REWARDS_MENU_NAME', ['{CATEGORY}' => $category->getCustomName()]));
 
-        $menu->setListener(function (InvMenuTransaction $transaction) use ($category): InvMenuTransactionResult {
+        $menu->setListener(function (InvMenuTransaction $transaction): InvMenuTransactionResult {
             $player = $transaction->getPlayer();
             $itemClicked = $transaction->getItemClicked();
 
