@@ -1,6 +1,6 @@
 name: AdvancedRewards
 main: rxduz\rewards\Main
-api: 5.17.0
+api: 5.23.2
 version: 1.0.0
 author: "iRxDuZ"
 description: "Add daily player gifts to your server"
